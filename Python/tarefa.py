@@ -885,12 +885,13 @@ aluno['media'] = (nota1 + nota2) / 2
 print(aluno)
 '''
 #96
+'''
 produtos = [{'nome': 'Camisa', 'preco': 50},{'nome': 'Calça', 'preco': 100},{'nome': 'Bota', 'preco': 200}]
 for produto in (produtos):
     print(f'Produto: {produto["nome"]} - Preço: R${produto["preco"]}')
-
+'''
 #97
-
+'''
 produtos = [{'nome': 'Camisa', 'preco': 50},{'nome': 'Calça', 'preco': 100},{'nome': 'Bota', 'preco': 200}]
 mais_caro = produtos[0]
 
@@ -898,3 +899,4 @@ for produto in (produtos):
     if (produto['preco'] > mais_caro['preco']):
         mais_caro = produto
 print(f'O produto mais caro é {mais_caro["nome"]}, custando R${mais_caro["preco"]}')
+'''
