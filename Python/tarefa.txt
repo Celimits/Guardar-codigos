@@ -1,0 +1,123 @@
+135 Exercicios de Python
+Pagina 10
+98. Agenda telefonica
+Crie um dicionario em que cada chave e o nome de uma pessoa e o valor e seu telefone. Permita buscar
+um telefone digitando o nome.
+99. Contagem de palavras
+Peca uma frase e crie um dicionario que armazene quantas vezes cada palavra aparece na frase.
+100. Estoque
+Crie um dicionario com produtos e quantidades. Peca o nome de um produto e uma quantidade de
+retirada. So permita a retirada se houver estoque suficiente e atualize a quantidade.
+Bloco 7 - Funcoes
+Nivel sugerido: Intermediario para avancado
+Foco: dividir o programa em partes reutilizaveis com parametros e valores de retorno.
+101. Funcao saudacao
+Crie uma funcao chamada saudacao() que exiba a mensagem 'Bem-vindo ao programa!'. Depois, chame
+a funcao.
+102. Saudacao com nome
+Crie uma funcao que receba um nome como parametro e exiba uma saudacao personalizada.
+103. Somar dois numeros
+Crie uma funcao que receba dois numeros e retorne a soma. Fora da funcao, exiba o valor retornado.
+104. Maior entre dois
+Crie uma funcao que receba dois numeros e retorne o maior deles. Caso sejam iguais, pode retornar
+qualquer um dos dois.
+105. Par ou impar com retorno
+Crie uma funcao que receba um numero inteiro e retorne a string 'par' ou 'impar'.
+106. Calcular media
+Crie uma funcao que receba tres notas e retorne a media aritmetica.
+107. Area do retangulo em funcao
+Crie uma funcao que receba largura e altura e retorne a area do retangulo.
+108. Conversor de Celsius
+Crie uma funcao que receba uma temperatura em Celsius e retorne o valor correspondente em
+Fahrenheit.
+109. Fatorial em funcao
+Crie uma funcao que receba um inteiro nao negativo e retorne seu fatorial.
+110. Verificar primo
+Crie uma funcao que receba um numero e retorne True se ele for primo e False caso contrario.
+111. Contar vogais
+Crie uma funcao que receba uma string e retorne a quantidade total de vogais presentes nela.
+135 Exercicios de Python
+Pagina 11
+112. Maior valor de lista
+Crie uma funcao que receba uma lista de numeros e retorne o maior valor sem utilizar max().
+113. Media de lista
+Crie uma funcao que receba uma lista de numeros e retorne a media. Defina o que deve acontecer caso
+a lista esteja vazia.
+114. Filtrar positivos
+Crie uma funcao que receba uma lista de numeros e retorne uma nova lista contendo apenas valores
+positivos.
+115. Calculadora por funcoes
+Crie quatro funcoes: somar, subtrair, multiplicar e dividir. Crie um menu que chame a funcao adequada
+de acordo com a escolha do usuario.
+Bloco 8 - Arquivos, excecoes e organizacao
+Nivel sugerido: Intermediario para avancado
+Foco: persistir dados em arquivos, tratar erros esperados e separar codigo em modulos.
+116. Gravar nome em arquivo
+Peca um nome e grave esse nome em um arquivo de texto chamado nomes.txt. Use o modo de escrita
+apropriado.
+117. Adicionar varios nomes
+Peca nomes repetidamente ate o usuario digitar 'sair'. Grave cada nome em uma nova linha de
+nomes.txt sem apagar os nomes anteriores.
+118. Ler arquivo
+Leia o arquivo nomes.txt e exiba seu conteudo na tela.
+119. Ler linha por linha
+Abra nomes.txt e use um laco para exibir cada linha do arquivo, removendo a quebra de linha
+desnecessaria com strip().
+120. Contar linhas
+Leia um arquivo de texto e informe quantas linhas ele possui.
+121. Tratamento de numero invalido
+Peca um numero inteiro dentro de um bloco try/except. Caso o usuario digite algo que nao possa ser
+convertido para int, exiba uma mensagem de erro amigavel.
+122. Divisao segura
+Peca dois numeros e tente dividi-los. Trate separadamente entrada invalida e divisao por zero usando
+excecoes.
+123. Modulo proprio
+Crie um arquivo chamado calculos.py contendo pelo menos duas funcoes matematicas. Em outro
+arquivo Python, importe o modulo e utilize essas funcoes.
+135 Exercicios de Python
+Pagina 12
+Bloco 9 - Orientacao a objetos: classes e objetos
+Nivel sugerido: Avancado introdutorio
+Foco: representar entidades usando classes, atributos, metodos e objetos que possuem estado proprio.
+124. Primeira classe
+Crie uma classe chamada Pessoa. Ela deve possuir os atributos nome e idade. Crie um objeto dessa
+classe e exiba seus atributos.
+125. Construtor
+Na classe Pessoa, utilize __init__ para receber nome e idade no momento em que o objeto for criado.
+Crie pelo menos duas pessoas diferentes.
+126. Metodo apresentar
+Adicione a classe Pessoa um metodo apresentar() que exiba uma frase contendo o nome e a idade do
+objeto.
+127. Classe Produto
+Crie uma classe Produto com os atributos nome e preco. Crie tres objetos e exiba os dados de cada
+produto.
+128. Metodo de desconto
+Na classe Produto, crie um metodo aplicar_desconto(percentual) que altere o preco do proprio objeto de
+acordo com o percentual recebido.
+129. Conta bancaria
+Crie uma classe ContaBancaria com titular e saldo. Implemente os metodos depositar(valor) e
+sacar(valor). O saque nao pode deixar o saldo negativo.
+130. Aluno
+Crie uma classe Aluno com nome e uma lista de notas. Implemente um metodo calcular_media() que
+retorne a media do aluno.
+131. Situacao do aluno
+Expanda a classe Aluno adicionando um metodo situacao() que retorne 'Aprovado' para media maior ou
+igual a 6 e 'Reprovado' caso contrario.
+132. Retangulo como objeto
+Crie uma classe Retangulo com largura e altura. Implemente os metodos calcular_area() e
+calcular_perimetro().
+133. Carro
+Crie uma classe Carro com modelo, velocidade_atual e velocidade_maxima. Adicione metodos
+acelerar(valor) e frear(valor). A velocidade nao pode ficar negativa nem ultrapassar a maxima.
+134. Biblioteca
+Crie uma classe Livro com titulo, autor e disponivel. Depois crie uma classe Biblioteca que mantenha
+uma lista de livros e possua metodos para adicionar, listar, emprestar e devolver livros.
+135 Exercicios de Python
+Pagina 13
+135. Sistema final com objetos
+Crie um pequeno sistema de cadastro de produtos usando a classe Produto. O programa deve permitir
+cadastrar produtos, listar produtos, buscar pelo nome e calcular o valor total de todos os produtos
+cadastrados. Armazene os objetos em uma lista.
+Fim da lista
+Ao concluir os 135 exercicios, o aluno tera praticado os principais fundamentos necessarios para iniciar
+projetos maiores em Python, incluindo programas estruturados e sistemas simples orientados a objetos.
