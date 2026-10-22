@@ -1,37 +1,3 @@
-135 Exercicios de Python
-Pagina 10
-98. Agenda telefonica
-Crie um dicionario em que cada chave e o nome de uma pessoa e o valor e seu telefone. Permita buscar
-um telefone digitando o nome.
-99. Contagem de palavras
-Peca uma frase e crie um dicionario que armazene quantas vezes cada palavra aparece na frase.
-100. Estoque
-Crie um dicionario com produtos e quantidades. Peca o nome de um produto e uma quantidade de
-retirada. So permita a retirada se houver estoque suficiente e atualize a quantidade.
-Bloco 7 - Funcoes
-Nivel sugerido: Intermediario para avancado
-Foco: dividir o programa em partes reutilizaveis com parametros e valores de retorno.
-101. Funcao saudacao
-Crie uma funcao chamada saudacao() que exiba a mensagem 'Bem-vindo ao programa!'. Depois, chame
-a funcao.
-102. Saudacao com nome
-Crie uma funcao que receba um nome como parametro e exiba uma saudacao personalizada.
-103. Somar dois numeros
-Crie uma funcao que receba dois numeros e retorne a soma. Fora da funcao, exiba o valor retornado.
-104. Maior entre dois
-Crie uma funcao que receba dois numeros e retorne o maior deles. Caso sejam iguais, pode retornar
-qualquer um dos dois.
-105. Par ou impar com retorno
-Crie uma funcao que receba um numero inteiro e retorne a string 'par' ou 'impar'.
-106. Calcular media
-Crie uma funcao que receba tres notas e retorne a media aritmetica.
-107. Area do retangulo em funcao
-Crie uma funcao que receba largura e altura e retorne a area do retangulo.
-108. Conversor de Celsius
-Crie uma funcao que receba uma temperatura em Celsius e retorne o valor correspondente em
-Fahrenheit.
-109. Fatorial em funcao
-Crie uma funcao que receba um inteiro nao negativo e retorne seu fatorial.
 110. Verificar primo
 Crie uma funcao que receba um numero e retorne True se ele for primo e False caso contrario.
 111. Contar vogais

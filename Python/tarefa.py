@@ -900,3 +900,122 @@ for produto in (produtos):
         mais_caro = produto
 print(f'O produto mais caro é {mais_caro["nome"]}, custando R${mais_caro["preco"]}')
 '''
+#98
+'''
+list = {'gestor': '3499245213', 'senac': '34992932422'}
+nome = input("Digite o nome de usuário: ")
+if nome in list:
+    print(f"Telefone do usuário {nome} é: {list[nome]}")
+else:
+    print("Usuário não encontrado.")
+'''
+'''
+exercicio 99:
+digite = input("Digite alguma frase: ")
+
+pala = digite.lower().split()
+cont = {}
+for palavra in pala:
+    if palavra in cont:
+        cont[palavra] += 1
+    else:
+        cont[palavra] = 1
+print(cont)
+'''
+
+'''
+exercicio 100:
+estoque = {"arroz": 10, "feijão": 5, "macarrão": 8}
+nomeproduto = input("Digite o nome do produto: ")
+quant = int(input("Digite a quantidade a ser vendida: "))
+
+if nomeproduto in estoque:
+    if quant <= estoque[nomeproduto]:
+        estoque[nomeproduto] -= quant
+        print(f"Venda realizada! Estoque restante de {nomeproduto}: {estoque[nomeproduto]}")
+    else:
+        print("Quantidade solicitada não disponível em estoque.")
+else:
+    print("Produto não encontrado no estoque.")
+print("A quantidade restante é:", {estoque})
+'''
+
+'''exercicio 101:
+def saudacao():
+    print("Olá! Bem-vindo ao programa de exercícios.")
+saudacao()
+'''
+
+'''exercicio 102:
+def nome(name):
+    print(f"Boa tarde, {name}!")
+nome("Vitor")
+'''
+
+'''exercicio 103:
+def soma(a, b):
+    print(a + b)
+soma(5, 6)
+'''
+
+'''exercicio 104:
+def maior(a, b):
+    if a > b:
+        print(f"O maior número é: {a}")
+    elif b > a:
+        print(f"O maior número é: {b}")
+    else:
+        print("Os números são iguais.")
+maior(10, 20)
+'''
+
+'''exercicio 105:
+def numero(x):
+    if x % 2 == 0:
+        print("O número é par.")
+    else:
+        print("O número é ímpar.")
+x = int(input("Digite um número inteiro: "))
+numero(x)
+'''
+
+'''exercicio 106:
+def nota(x,y,z):
+    print("A média das notas é:", (x + y + z) / 3)
+
+y = float(input("Digite a segunda nota: "))
+z = float(input("Digite a terceira nota: "))
+nota(8, y, z)
+'''
+
+'''exercicio 107:
+def retangulo(largura, altura):
+    print(f"Area do retangulo é: {(largura * altura)}")
+altura = float(input("Digite a altura do retangulo: "))
+largura = float(input("Digite a largura do retangulo: "))
+retangulo(largura, altura)
+'''
+
+'''exercicio 108:
+def cel(fa):
+    print(f"Fahrenheit {(fa * 9 / 5) + 32}°F")
+fa = float(input("Digite a temperatura em Celsius: "))
+cel(fa)
+'''
+
+'''exercicio 109:
+def fatorial(n):
+    resultado = 1
+    for i in range(1, n + 1):
+        resultado = resultado * i
+    return resultado
+n = int(input("Digite um número inteiro não negativo: "))
+print("O fatorial de", n, "é:", fatorial(n))
+'''
+#110
+def verificarpimo(x):
+    for i in range(2, x):
+        if x % i == 0:
+            return False
+    return True
+print(verificarpimo(int(input('Digite um numero para descobrir se é primo ou não(Se true, ele é primo, se false ele não é): ')))) 
