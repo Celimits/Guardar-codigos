@@ -889,6 +889,7 @@ print(aluno)
 produtos = [{'nome': 'Camisa', 'preco': 50},{'nome': 'Calça', 'preco': 100},{'nome': 'Bota', 'preco': 200}]
 for produto in (produtos):
     print(f'Produto: {produto["nome"]} - Preço: R${produto["preco"]}')
+
 '''
 #97
 '''
@@ -1013,9 +1014,91 @@ n = int(input("Digite um número inteiro não negativo: "))
 print("O fatorial de", n, "é:", fatorial(n))
 '''
 #110
+'''
 def verificarpimo(x):
     for i in range(2, x):
         if x % i == 0:
             return False
     return True
 print(verificarpimo(int(input('Digite um numero para descobrir se é primo ou não(Se true, ele é primo, se false ele não é): ')))) 
+'''
+#111
+'''
+def vogais():
+    frase = input('Digite uma palavra/frase para descobrir quantas vogais ela possui: ')
+    quantidade = 0
+    for i in frase:
+        if (i in 'aeiou'):
+            quantidade += 1
+    print(f'A quantidade de vogais é: {quantidade}')
+
+vogais()
+'''
+#112
+'''
+def maior_valor():
+    numeros = [10, 25, 7, 40, 15]
+    maior = numeros[0]
+
+    for numero in numeros:
+        if (numero > maior):
+            maior = numero
+
+    return maior
+
+maior_valor()
+'''
+#113
+'''
+def media(numeros):
+    if (len(numeros) == 0):
+        return 0
+    return sum(numeros) / len(numeros)
+lista = [10, 20, 30, 40, 50]
+media(lista)
+'''
+#114
+'''
+def positivos():
+    lista = []
+    positivo = []
+
+    for i in range(1, 5):
+        valor = int(input('Digite um valor: '))
+        lista.append(valor)
+
+    for valor in lista:
+        if valor > 0:
+            positivo.append(valor)
+    
+    print(f'Os valores positivos são: {positivo}')
+
+positivos()
+'''
+#115
+'''
+x = float(input('Digite o primeiro valor: '))
+y = float(input('Digite o segundo valor: '))
+    
+menu = int(input('Selecione uma opção do menu: \n 1- Somar \n 2- Subtrair \n 3- Multiplicar \n 4- Divisão \n'))
+def somar():
+   soma = x + y
+   print(f'A soma dos valores é: {soma}') 
+def subtrair():
+    subtração = x - y
+    print(f'A subtração é: {subtração}')
+def multiplicar():
+    multiplicação = x * y
+    print(f'A multiplicação é: {multiplicação}')
+def dividir():
+    divisão = x / y
+    print(f'A divisão é {divisão}')
+if menu == 1:
+    somar()
+elif menu == 2:
+    subtrair()
+elif menu == 3:
+    multiplicar()
+else:
+    dividir()
+'''
